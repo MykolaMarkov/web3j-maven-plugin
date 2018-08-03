@@ -1,11 +1,11 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.23;
 
 import "../Issue17relative2.sol";
 
 contract Issue17relative1 {
     address creator;
 
-    function Issue17relative1() {
+    constructor () public {
         creator = msg.sender;
     }
 }

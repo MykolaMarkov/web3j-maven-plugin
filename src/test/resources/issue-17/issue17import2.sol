@@ -1,9 +1,9 @@
-pragma solidity ^0.4.18;
+pragma solidity ^0.4.19;
 
 contract Issue17import2 {
     address creator;
 
-    function Issue17import2() {
+    constructor() {
         creator = msg.sender;
     }
 
